@@ -1,0 +1,229 @@
+.all-categories {
+    text-align: center;
+}
+
+.off {
+    color: #f00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.holiday {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.categorie {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.categorie-img {
+    width: 800px;
+}
+
+
+/* party section */
+.party {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    padding: 50px 100px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.midnight-h3 {
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.midnight-p {
+    color: white;
+    width: 600px;
+    margin-bottom: 5px;
+}
+
+
+.midnight-btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    background: none;
+    border: none;
+}
+
+.midnight-img {
+    width: 220px;
+}
+
+/* parkHotel-section */
+
+.parkHotel {
+    background: linear-gradient(rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+
+}
+
+.parkHotel-Plase {
+    color: #070211;
+    font-size: 32px;
+}
+
+.parkHotel-Plase1 {
+    color: #F00;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.parkHotel-btn {
+    padding: 16px 32px;
+    background: #F00;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+
+/* bestOffer- section */
+
+.bestOffer {
+    margin-top: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.offer-content {
+    width: 300px;
+}
+
+.bestOffer-img {
+
+    border: 6px solid #F00;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.bestOffer-img1 {
+    width: 300px;
+}
+
+.bestOffer-2024 {
+    width: 276px;
+}
+
+/* Holidays-section */
+
+.Holidays {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+
+}
+
+/* discount-section */
+
+.discount{
+    margin: 50px;
+}
+.discount-1 {
+    display: flex;
+justify-content: space-around;
+}
+
+.discount-box {
+    position: relative;
+    top: 200px;
+    width: 500px;
+
+
+}
+.discountGroup{
+    width: 300px;
+    height: 300px;
+    padding-top: 180px;
+}
+
+.discount-50 {
+    top: 40px;
+}
+
+
+/* portfolio-section */
+.portfolio{
+    margin: 50px;
+}
+.portfolio-img{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 15px;
+}
+.portfolio-img >img{
+    width: 380px;
+}
+
+
+/* Subscribe-section */
+.Subscribe{
+    background:rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.Subscribe-img{
+    width: 150px;
+}
+.Subscribe-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+}
+.Subscribe-contant{
+    font-size: 20px;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+.Subscribe-input{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.Subscribe-input1{
+    padding: 25px 30px;
+    border-radius: 30px 0px 0px 30px;
+    font-size: 18px;
+    border: none;
+    
+}
+.Subscribe-input2{
+    background-color: #F00;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 25px 30px;
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+
+.banner-img{
+    /* height: auto; */
+    /* width: 100%; */
+    position: relative;
+    border-radius: 10px;
+}
+.banner-content{
+    position:absolute;
+    text-align: center;
+    top: 100px;
+    left: 450px;  
+}
+.banner-p{
+    font-size: 32px;
+    color: white;
+}
+.banner-title{
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 5px;
+    color: white;
+}
