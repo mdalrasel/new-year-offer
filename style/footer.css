@@ -1,0 +1,23 @@
+.footer{
+    background-color: black;
+}
+.footer-content {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+}
+.socile {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.Unsubscribe{
+    display: flex;
+    color: #FFF;
+    justify-content:space-around ;
+    font-size: 24px;
+    font-weight: 500;
+}
